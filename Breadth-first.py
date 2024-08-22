@@ -7,14 +7,14 @@ def main():
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    img_dir = os.path.join(script_dir, 'Mazes', 'Maze.toys')
-    img_name = os.path.join(img_dir, 'Screenshot 2024-05-15 165045.png')
+    img_dir = os.path.join(script_dir, 'Mazes', 'Maze.toys') # Subdirectory
+    img_name = os.path.join(img_dir, 'Screenshot 2024-05-15 165045.png') # File name
     rgb_img = plt.imread(img_name)
 
     plt.figure(figsize=(14, 14))
     plt.imshow(rgb_img)
-    x0, y0 = 0, 0
-    x1, y1 = 400, 400
+    x0, y0 = 0, 0 # Start Point
+    x1, y1 = 400, 400 # End Point
 
     plt.plot(x0, y0, 'gx', markersize=14)
     plt.plot(x1, y1, 'rx', markersize=14)
