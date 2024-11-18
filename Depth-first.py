@@ -64,10 +64,10 @@ def main():
 
     dst = np.zeros((thr_img.shape))
 
-    # Breath-first algorithm exploring a tree
+    # Depth-first algorithm exploring a tree
     while True:
         # update distance.
-        idc = np.argmin(pts_c)
+        idc = -1
         ct = pts_c.pop(idc)
         x = pts_x.pop(idc)
         y = pts_y.pop(idc)

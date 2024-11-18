@@ -52,6 +52,17 @@ It's recommended to use Jupyter Notebook, especially for marking the start and e
 5. **Run the Notebook:** 
    
    Execute the cells one by one to solve your maze.
+
+
+## Credit
+
+Channel: Odlogo
+
+YouTube: [How to Solve a Maze - Live Coding - Python - Image Analysis](https://www.youtube.com/watch?v=1KHgCRs-x1M)
+  
+GitHub: [How to solve a maze](https://github.com/dwaithe/live-coding/blob/main/how-to-solve-a-maze/How-to-solve-a-maze.ipynb)
+
+This repository is basically a copy of the above mentioned video. I plan to add a GUI for making this easier to use.
    
 ## Contributing
 
