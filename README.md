@@ -35,10 +35,14 @@ It's recommended to use Jupyter Notebook, especially for marking the start and e
 │   ├── Maze.toys/
 │   │   └── {image_file}
 │   ├── Examples/
+├── Breadth-first.ipynb
 ├── Breadth-first.py
-├── Notebook.ipynb
+├── Depth-first.ipynb
+├── Depth-first.py
 ├── requirements.txt
   ```
+
+  Or change the directory in the notebook.
 
 3. **Update the Image Path:**
    
